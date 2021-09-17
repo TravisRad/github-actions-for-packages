@@ -62,6 +62,6 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
-        repository: TravisRad/github-actions-for-packages/tic-tac-toe
+        repository: travisrad/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
         
